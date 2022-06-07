@@ -1,60 +1,34 @@
-# React Bootstrap Starter
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![logo](./screenshots/react-bootstrap-starter.png)
+## Getting Started
 
-[Documentation](https://chrisdevcode.hashnode.dev/react-and-bootstrap-starter-template) | [Live Demo](https://react-bootstrap-temp.netlify.app/)
+First, run the development server:
 
-React Bootstrap Starter is a starter template for react and bootstrap created by [Chris Achinga](http://chrisdev.netlify.app). This theme uses Create React App, react-bootstrap and gh-pages.
-
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
-Fork and clone the repository.
-
-Install the dependencies:
-
-```powershell-interactive
-npm install
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-## Usage
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Start editing and customizing according to your needs.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-Run locally:
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-```powershell-interactive
-npm start
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Dependencies:
+## Learn More
 
-- [React](https://reactjs.org/)
-- [Create React App](https://create-react-app.dev/)
-- [react-bootstrap](https://react-bootstrap.github.io/)
+To learn more about Next.js, take a look at the following resources:
 
-## Bugs and Issues
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Have a bug or an issue with this template? Open a new issue here on GitHub.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Copyright and License
+## Deploy on Vercel
 
-Copyright 2021 Chris Achinga. Code released under the [MIT license](LICENSE).
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Status
-
-<div align='center'>
-
-[![GitHub forks](https://img.shields.io/github/forks/ChrisAchinga/react-bootstrap-starter)](https://github.com/ChrisAchinga/react-bootstrap-starter/network)
-
-[![GitHub stars](https://img.shields.io/github/stars/ChrisAchinga/react-bootstrap-starter)](https://github.com/ChrisAchinga/react-bootstrap-starter/stargazers)
-
-[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/status.svg)](https://depfu.com)
-
-[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/overview.svg)](https://depfu.com/github/ChrisAchinga/react-bootstrap-starter?project_id=18009)
-
-[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/count.svg)](https://depfu.com/github/ChrisAchinga/react-bootstrap-starter?project_id=18009)
-
-</div>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
