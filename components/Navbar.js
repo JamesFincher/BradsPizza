@@ -2,19 +2,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import React from "react";
+import Link from "next/link";
 
 const RBNavBar = () => {
   return (
-    <Navbar bg="light" expand="lg" id="myNavbar">
-      <Navbar.Brand href="#home">
+    <Navbar bg="dark" expand="lg" id="myNavbar">
+      <Navbar.Brand href="/">
         <img src="/images/Brads Pizza-logos.jpeg" height="50"></img>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto" id="myNavItem">
-          <Nav.Link href="/" id="myNavItem">
-            Home
-          </Nav.Link>
+          Link to{" "}
+          <Link href="/">
+            <a>Home</a>
+          </Link>
           <Nav.Link href="contact" id="myNavItem">
             Contact
           </Nav.Link>
