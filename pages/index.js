@@ -15,7 +15,6 @@ export default function Home() {
         <h1 className={styles.title}>
           <a href="https://nextjs.org">Next.js</a> Sass Starter
         </h1>
-        <img class="img-fluid" src="/images/Brads Pizza-logos.jpeg" />
         <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
