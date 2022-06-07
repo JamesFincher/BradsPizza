@@ -1,8 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
+import "bootstrap/dist/css/bootstrap.css";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
