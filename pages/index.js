@@ -19,14 +19,13 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <h1 className={styles.title}>
-            <a href="https://nextjs.org">Next.js</a> Sass Starter
-          </h1>{" "}
-          <Car />
+          <h1 className={styles.title}>BRADS PIZZA</h1> <Car />
           <p className={styles.description}>
-            Get started by editing{" "}
-            <code className={styles.code}>pages/index.js</code>
+            We are a family owned business that specializes in pizza. We are
+            located in the heart of the city of St. Louis. We are open 7 days a
+            week.
           </p>
+          <h4>Testing below</h4>
           <button type="button" className="btn btn-primary">
             Primary
           </button>

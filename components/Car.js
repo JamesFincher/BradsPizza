@@ -30,7 +30,7 @@ const Car = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/sahal-hameed-Nq9KlQTTEbQ-unsplash.jpg"
+          src="/images/inna-podolska-JspLKUauwSI-unsplash.jpg"
           alt="Third slide"
         />
 
